@@ -1,0 +1,153 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* NAVIGATION */
+.top-nav li{
+    padding-right: 40px;
+}
+.top-nav a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;    
+}
+
+.top-part img{
+    width:100% ;
+}
+.top-part p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top-part h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* NAV END */
+
+.widget{
+    border: double #d09c8e;
+   margin: 30px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    color: grey;
+    
+}
+.widget-header{
+    float: center;
+}
+.widget hr{
+    margin-top: 1px;
+}
+.widget a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.widget img{
+     max-width: 100%;
+     width: 60%;
+    margin:50px;
+}
+
+/* social-widget */
+.widget-social{
+    border: double #d09c8e;
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    color: grey;
+}
+.social ul{
+   list-style: none;
+  margin-left: 30px;
+}
+.social ul li a{
+    display: inline;
+     float: left;
+     border: none;
+     padding-left: 15px;
+     color: grey;
+}
+
+/* pagination */
+.paglinks{
+    margin-left: 25%;
+    
+}
+.paglinks a{
+    color: white;
+    background-color: sienna;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+            /* footer */
+.my-footer {
+    text-align: center;
+    overflow: hidden;
+    padding-left: 0;
+}
+.my-footer li {
+    width: 16.66666666666667%;
+    display:inline;
+    float: left;
+    margin: 0;
+}
+.my-footer  li img {
+    max-width: 100%;
+}
+
+#foot{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* footer-social */
+.social-media li{
+    list-style: none;
+    float: right;
+    font-size: 30px;
+    color:white;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.social-media li a{
+    color: rgb(87, 80, 80);
+    cursor: pointer;
+}
+.social-media{
+    text-align: center;
+}
+@media (max-width: 797px){
+    .social ul li{
+        display: inline;
+         float: left;
+         border: none;
+         margin-left: 15px;
+         padding-left: 2px;
+         color: green;
+         font-size: 30px;
+    }
+    .social ul{
+        list-style: none;
+       /* margin-left: 1px; */
+     }
+    .widget-social{
+        border: double #d09c8e;
+        margin: 30px;
+        /* padding-top: 50px; */
+        padding-bottom: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+        color: grey;
+    }
+    
+
+}
+@media(min-width:360px, max-width:375px){
+
+}
